@@ -40,6 +40,9 @@ body {
   color: #e5e5e5;
   font-size: 1.2rem;
 }
+.nav ul li:first-child a{
+  color:#fff ;
+}
 .nav ul li a:hover {
   color: grey;
 }
