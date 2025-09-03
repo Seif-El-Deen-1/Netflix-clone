@@ -7,6 +7,7 @@ body {
   padding: 0;
   font-family: "Netflix Sans";
   background-color: #141414;
+  overflow-x: hidden;
 }
 .header {
     z-index:100 ;
@@ -41,4 +42,14 @@ body {
 }
 .nav ul li a:hover {
   color: grey;
+}
+.trailercover{
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.trailercover img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
